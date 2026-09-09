@@ -1,0 +1,165 @@
+{
+  "knowledge_base": [
+    {
+      "tecnologia": "NVIDIA Inception",
+      "titulo": "O que é o programa NVIDIA Inception",
+      "conteudo_texto": "NVIDIA Inception é um programa gratuito para startups de IA, sem taxas de aplicação, mensalidades ou exigência de equity. Ele guia startups desde o protótipo até a produção, oferecendo treinamentos técnicos autoguiados, workshops com desconto, acesso a fóruns de desenvolvedores, preços preferenciais em hardware e software NVIDIA, créditos de nuvem de parceiros, exposição à rede de investidores de venture capital da NVIDIA (via Inception Capital Connect) e amplificação de marca por meio de selos oficiais e eventos. Startups podem se candidatar em qualquer estágio de financiamento, sem prazos ou turmas fixas. Critérios de elegibilidade incluem: ter ao menos um desenvolvedor na equipe, manter um site funcional, estar oficialmente constituída e ter menos de dez anos de existência. Empresas de consultoria, provedoras de cloud, revendedoras e empresas de capital aberto não se qualificam.",
+      "url_fonte": "https://www.nvidia.com/en-us/startups/",
+      "recomendar_para": "Qualquer startup pré-produto ou em estágio inicial que ainda não tem relação formal com a NVIDIA; é a porta de entrada natural antes de recomendar tecnologia específica."
+    },
+    {
+      "tecnologia": "NVIDIA Inception",
+      "titulo": "Benefícios de negócio e acesso a investidores",
+      "conteudo_texto": "Além de benefícios técnicos, o Inception conecta startups membras a uma rede global de fundos de venture capital por meio da VC Alliance, com eventos de networking que reúnem startups, investidores e executivos da NVIDIA. O programa também oferece suporte de go-to-market, incluindo introduções estratégicas e oportunidades de negócio que crescem conforme o engajamento da startup com a NVIDIA aumenta. Isso é especialmente relevante para startups que buscam captação ou expansão comercial, não apenas suporte técnico.",
+      "url_fonte": "https://www.nvidia.com/en-us/startups/",
+      "recomendar_para": "Startups em fase de captação de investimento ou buscando parcerias comerciais e visibilidade de mercado."
+    },
+
+    {
+      "tecnologia": "NVIDIA NIM",
+      "titulo": "O que é o NVIDIA NIM",
+      "conteudo_texto": "NVIDIA NIM (NVIDIA Inference Microservices) são microsserviços de inferência pré-construídos e otimizados para implantar rapidamente modelos de IA generativa em qualquer infraestrutura acelerada por NVIDIA — nuvem, data center, workstation ou edge. Cada NIM já vem empacotado com o modelo de IA mais atual, motores de inferência otimizados, APIs no padrão da indústria (compatíveis com OpenAI) e todas as dependências de runtime, em um container pronto para produção. Isso permite que modelos sejam implantados em minutos com um único comando, em vez de semanas de trabalho de engenharia de MLOps para otimizar cada modelo manualmente.",
+      "url_fonte": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
+      "recomendar_para": "Startups que já usam LLMs via API de terceiros e precisam ganhar controle sobre custo, latência ou privacidade de dados ao trazer a inferência para dentro de casa."
+    },
+    {
+      "tecnologia": "NVIDIA NIM",
+      "titulo": "Ganhos de performance e casos de uso do NIM",
+      "conteudo_texto": "Segundo benchmarks divulgados pela NVIDIA, ativar o NIM em um modelo Llama 3.1 8B rodando em uma GPU H100 quase dobra o throughput de tokens por segundo em relação à mesma configuração sem NIM, mantendo baixa latência mesmo com muitos usuários simultâneos. Casos de uso comuns incluem assistentes virtuais de atendimento ao cliente, processamento inteligente de documentos (extração de dados de PDFs e formulários), personalização de experiências de compra em e-commerce, e configuradores de produtos em 3D. NIM se integra com o NeMo Agent Toolkit para compor agentes de IA mais complexos a partir desses microsserviços.",
+      "url_fonte": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
+      "recomendar_para": "Startups com produtos de atendimento ao cliente, processamento de documentos ou personalização que sofrem com latência ou custo de inferência via API externa."
+    },
+
+    {
+      "tecnologia": "NVIDIA NeMo",
+      "titulo": "O que é o NVIDIA NeMo",
+      "conteudo_texto": "NVIDIA NeMo é um conjunto aberto de bibliotecas 'agent-first', voltado para gerenciar todo o ciclo de vida de agentes de IA: curadoria de dados, seleção e customização de modelos, avaliação, guardrails, observabilidade e otimização contínua. O NeMo se integra a frameworks de agentes já existentes (como LangGraph) em vez de substituí-los, funcionando como uma camada de ferramentas especializadas. Componentes incluem o NeMo Curator (preparação de dados), NeMo Evaluator (benchmarking de modelos e agentes), NeMo Customizer (fine-tuning), NeMo Guardrails (segurança e compliance) e NeMo Auditor (identificação de vulnerabilidades antes de ir para produção).",
+      "url_fonte": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+      "recomendar_para": "Startups com um pipeline de agentes de IA em produção que precisam de avaliação sistemática, fine-tuning com dados próprios ou controle de qualidade contínuo."
+    },
+    {
+      "tecnologia": "NVIDIA NeMo",
+      "titulo": "Data flywheel e melhoria contínua de agentes",
+      "conteudo_texto": "Um conceito central do NeMo é o 'data flywheel': um ciclo contínuo de destilação, fine-tuning e avaliação que usa os dados de interações reais do agente em produção para retreiná-lo e melhorá-lo progressivamente ao longo do tempo, em vez de treinar um modelo uma única vez e deixá-lo estático. Empresas como AT&T usam o NeMo para reduzir 'model drift' (degradação de performance do modelo ao longo do tempo) em agentes de atendimento ao cliente, combinando isso com NeMo Guardrails para manter conformidade regulatória.",
+      "url_fonte": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+      "recomendar_para": "Startups que já têm agentes de IA rodando há algum tempo e notam degradação de qualidade nas respostas, ou que operam em setores regulados (jurídico, saúde, financeiro)."
+    },
+
+    {
+      "tecnologia": "NeMo Guardrails",
+      "titulo": "O que é o NeMo Guardrails",
+      "conteudo_texto": "NeMo Guardrails é uma ferramenta de código aberto que adiciona camadas de segurança e controle a assistentes conversacionais baseados em LLM. Ele permite que desenvolvedores definam regras programáveis para impedir que o modelo discuta tópicos indesejados, vaze informações sensíveis, produza respostas tóxicas ou saia do escopo definido para o agente, sem precisar retreinar o modelo em si. As regras (chamadas de 'rails') são escritas em uma linguagem de configuração simples (Colang) e podem ser aplicadas na entrada do usuário, na saída do modelo, ou nos dois pontos do fluxo de conversa.",
+      "url_fonte": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "recomendar_para": "Startups com chatbots ou agentes conversacionais voltados ao público final, especialmente em setores sensíveis como jurídico, saúde ou financeiro, onde uma resposta incorreta do agente tem risco reputacional ou legal."
+    },
+
+    {
+      "tecnologia": "NVIDIA Triton Inference Server",
+      "titulo": "O que é o Triton Inference Server",
+      "conteudo_texto": "NVIDIA Triton Inference Server é uma plataforma de código aberto para servir modelos de IA em produção, suportando múltiplos frameworks de machine learning (PyTorch, TensorFlow, ONNX, TensorRT, e outros) simultaneamente em um único servidor. O Triton lida com batching dinâmico de requisições (agrupando múltiplas chamadas para usar a GPU de forma mais eficiente), execução simultânea de vários modelos na mesma GPU, e versionamento de modelos para permitir rollback e testes A/B em produção sem downtime.",
+      "url_fonte": "https://developer.nvidia.com/triton-inference-server",
+      "recomendar_para": "Startups que já têm modelos próprios (não apenas LLMs via API) e precisam servi-los de forma confiável e escalável em produção, especialmente se usam frameworks diferentes para modelos diferentes."
+    },
+
+    {
+      "tecnologia": "TensorRT-LLM",
+      "titulo": "O que é o TensorRT-LLM",
+      "conteudo_texto": "TensorRT-LLM é uma biblioteca de código aberto da NVIDIA especializada em otimizar a inferência de large language models em GPUs NVIDIA. Ela aplica técnicas como quantização (redução de precisão numérica dos pesos do modelo), fusão de kernels e paralelismo em múltiplas GPUs para reduzir significativamente a latência e aumentar o throughput de tokens gerados por segundo, sem alterar a arquitetura do modelo original. É frequentemente usada como o motor de inferência por trás de deployments do NVIDIA NIM.",
+      "url_fonte": "https://github.com/NVIDIA/TensorRT-LLM",
+      "recomendar_para": "Startups com LLMs próprios (fine-tuned ou treinados do zero) sofrendo com custo ou latência de inferência em produção."
+    },
+
+    {
+      "tecnologia": "NVIDIA RAPIDS",
+      "titulo": "O que é o NVIDIA RAPIDS",
+      "conteudo_texto": "NVIDIA RAPIDS é um conjunto de bibliotecas de código aberto para acelerar pipelines de ciência de dados usando GPUs em vez de CPUs, mantendo APIs muito parecidas com as bibliotecas Python que os cientistas de dados já usam (como pandas e scikit-learn). O objetivo é permitir que times de dados troquem poucas linhas de código e ganhem acelerações de dezenas a centenas de vezes em tarefas de processamento de grandes volumes de dados tabulares, sem precisar reescrever pipelines inteiros em outra linguagem.",
+      "url_fonte": "https://rapids.ai/",
+      "recomendar_para": "Startups que processam grandes volumes de dados tabulares (por exemplo, fintechs de análise de crédito ou agfintechs que cruzam dados de milhares de propriedades) e sentem lentidão em pipelines de dados baseados em CPU."
+    },
+    {
+      "tecnologia": "cuDF",
+      "titulo": "O que é o cuDF",
+      "conteudo_texto": "cuDF é a biblioteca do ecossistema RAPIDS que acelera o processamento de dataframes usando GPU, com uma API praticamente idêntica à do pandas. Operações como filtragem, agregação, junção (join) de tabelas e limpeza de dados que normalmente rodam em CPU com pandas podem ser executadas em GPU com cuDF, trazendo ganhos de performance relevantes em datasets grandes (milhões de linhas), sem exigir que a equipe de dados aprenda uma nova sintaxe.",
+      "url_fonte": "https://docs.rapids.ai/api/cudf/stable/",
+      "recomendar_para": "Startups cujo gargalo técnico está especificamente no processamento e limpeza de tabelas de dados muito grandes, antes mesmo de qualquer modelo de machine learning entrar em cena."
+    },
+    {
+      "tecnologia": "cuML",
+      "titulo": "O que é o cuML",
+      "conteudo_texto": "cuML é a biblioteca do ecossistema RAPIDS que acelera algoritmos de machine learning clássico (não deep learning) em GPU, com uma API compatível com o scikit-learn. Isso cobre algoritmos como regressão linear e logística, k-means, random forest, PCA e outros. Times de dados que já usam scikit-learn podem trocar o import da biblioteca e treinar modelos em uma fração do tempo em datasets grandes, sem mudar a lógica do pipeline de machine learning.",
+      "url_fonte": "https://docs.rapids.ai/api/cuml/stable/",
+      "recomendar_para": "Startups com pipelines de scoring ou classificação baseados em machine learning clássico (não LLMs) que precisam treinar ou re-treinar modelos com frequência sobre grandes volumes de dados."
+    },
+
+    {
+      "tecnologia": "CUDA",
+      "titulo": "O que é o CUDA",
+      "conteudo_texto": "CUDA (Compute Unified Device Architecture) é a plataforma de computação paralela e o modelo de programação criados pela NVIDIA que permitem que desenvolvedores usem GPUs para computação de propósito geral, não apenas gráficos. É a camada fundamental sobre a qual praticamente todo o restante do ecossistema de IA da NVIDIA é construído — frameworks como PyTorch e TensorFlow, bem como bibliotecas como RAPIDS e TensorRT, dependem do CUDA para acessar o poder de processamento paralelo das GPUs. Startups raramente interagem diretamente com CUDA; geralmente é uma camada de infraestrutura invisível usada por bibliotecas de nível mais alto.",
+      "url_fonte": "https://developer.nvidia.com/cuda-toolkit",
+      "recomendar_para": "Raramente recomendado diretamente para startups; mencionado como base técnica quando a recomendação envolve otimização de baixo nível de performance de GPU custom."
+    },
+
+    {
+      "tecnologia": "NVIDIA Riva",
+      "titulo": "O que é o NVIDIA Riva",
+      "conteudo_texto": "NVIDIA Riva é um conjunto de microsserviços de IA de fala em tempo real, cobrindo reconhecimento automático de fala (ASR, transformando áudio em texto), síntese de voz (TTS, transformando texto em áudio natural) e tradução neural de máquina. O Riva é otimizado para baixa latência e pode ser customizado para vocabulário específico de um domínio ou setor (por exemplo, termos médicos ou jurídicos) e para sotaques e idiomas específicos, incluindo português brasileiro.",
+      "url_fonte": "https://developer.nvidia.com/riva",
+      "recomendar_para": "Startups que fazem atendimento por voz, call center, transcrição de áudio ou assistentes de voz, especialmente se hoje dependem de APIs de fala genéricas sem customização para o domínio de negócio."
+    },
+
+    {
+      "tecnologia": "NVIDIA Omniverse",
+      "titulo": "O que é o NVIDIA Omniverse",
+      "conteudo_texto": "NVIDIA Omniverse é uma plataforma para construir e operar aplicações de simulação e 'digital twins' (gêmeos digitais) em tempo real, baseada no padrão aberto OpenUSD. Ela permite que equipes de diferentes ferramentas de design 3D colaborem em um mesmo ambiente de simulação fisicamente precisa, usada tanto para visualização (configuradores de produto em 3D, showrooms virtuais) quanto para simulação industrial de fábricas, cadeias logísticas e robótica antes de qualquer implementação física.",
+      "url_fonte": "https://www.nvidia.com/en-us/omniverse/",
+      "recomendar_para": "Startups que atuam com simulação industrial, digital twins, configuradores de produto 3D ou robótica que precisam testar cenários antes de implementar fisicamente."
+    },
+
+    {
+      "tecnologia": "NVIDIA Isaac",
+      "titulo": "O que é o NVIDIA Isaac",
+      "conteudo_texto": "NVIDIA Isaac é uma plataforma de robótica que combina simulação (Isaac Sim, construído sobre o Omniverse), bibliotecas de percepção e navegação aceleradas por GPU, e ferramentas para treinar e validar robôs em ambientes virtuais fisicamente realistas antes de implantá-los no mundo real. Isso reduz o risco e o custo de testar comportamentos de robôs autônomos diretamente em hardware físico, permitindo iterar rapidamente em simulação primeiro.",
+      "url_fonte": "https://developer.nvidia.com/isaac",
+      "recomendar_para": "Startups de robótica, automação industrial ou veículos autônomos que precisam treinar e validar comportamentos antes de testar em robôs físicos reais."
+    },
+
+    {
+      "tecnologia": "NVIDIA Clara",
+      "titulo": "O que é o NVIDIA Clara",
+      "conteudo_texto": "NVIDIA Clara é uma coleção de frameworks, ferramentas e microsserviços de IA voltados especificamente para saúde e ciências da vida (healthcare e life sciences), cobrindo imagem médica (análise de exames de imagem como raio-x e ressonância), genômica, descoberta de fármacos e desenvolvimento de dispositivos médicos inteligentes. Inclui o MONAI, um framework de código aberto para deep learning em imagem médica, amplamente usado por pesquisadores e empresas de healthtech.",
+      "url_fonte": "https://www.nvidia.com/en-us/clara/",
+      "recomendar_para": "Startups de healthtech, especialmente as que trabalham com análise de imagem médica, diagnóstico assistido por IA ou genômica."
+    },
+
+    {
+      "tecnologia": "NVIDIA Morpheus",
+      "titulo": "O que é o NVIDIA Morpheus",
+      "conteudo_texto": "NVIDIA Morpheus é um framework de IA acelerada por GPU para cibersegurança, projetado para inspecionar grandes volumes de tráfego de rede e logs em tempo real, detectando anomalias, phishing, vazamento de dados sensíveis e comportamento malicioso de forma muito mais rápida do que abordagens tradicionais baseadas em regras estáticas. Ele permite que times de segurança processem volumes de dados que seriam inviáveis de analisar manualmente ou com ferramentas convencionais.",
+      "url_fonte": "https://developer.nvidia.com/morpheus-cybersecurity",
+      "recomendar_para": "Startups de cibersegurança ou que processam grandes volumes de logs/transações e precisam de detecção de fraude ou anomalias em tempo real (por exemplo, fintechs de análise de risco)."
+    },
+
+    {
+      "tecnologia": "NVIDIA AI Enterprise",
+      "titulo": "O que é o NVIDIA AI Enterprise",
+      "conteudo_texto": "NVIDIA AI Enterprise é a camada de software empresarial que dá suporte, segurança, estabilidade de API e certificação de nível de produção a todo o restante do stack de IA da NVIDIA (NIM, NeMo, Triton, RAPIDS, e outros). Enquanto os componentes individuais podem ser usados gratuitamente para desenvolvimento e testes, o AI Enterprise é a licença recomendada para quando uma empresa move um projeto de piloto para produção real, com SLAs de suporte, branches de longo prazo e validação de segurança contínua da NVIDIA.",
+      "url_fonte": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+      "recomendar_para": "Startups que já validaram um piloto de IA internamente com sucesso e estão prestes a colocar isso em produção real com clientes pagantes, precisando de suporte e estabilidade de nível empresarial."
+    },
+
+    {
+      "tecnologia": "Conceito: AI-native services",
+      "titulo": "O conceito de AI-native services (contexto do case)",
+      "conteudo_texto": "O conceito de 'AI-native services', discutido em materiais como o playbook da Emergence Capital e o artigo da Sequoia sobre serviços como o novo software, descreve empresas que combinam software, agentes de IA, dados proprietários e serviço especializado para entregar um resultado de negócio completo, em vez de vender apenas uma ferramenta SaaS isolada. A NVIDIA usa esse framework para diferenciar startups que meramente 'encapsulam' uma API de LLM de terceiros (vulneráveis a serem substituídas pelos próprios grandes labs) daquelas que constroem uma vantagem competitiva real através de dados proprietários, workflow profundo e otimização técnica de toda a stack.",
+      "url_fonte": "https://www.emcap.com/thoughts/the-ai-native-services-playbook",
+      "recomendar_para": "Framework conceitual a ser usado pelo Classifier Agent e pelo Briefing Agent para justificar por que uma startup é classificada como AI-native, AI-enabled ou non-AI, e para embasar a narrativa do briefing final para o gerente da NVIDIA."
+    },
+    {
+      "tecnologia": "Conceito: 5-Layer Cake da NVIDIA",
+      "titulo": "O modelo de 5 camadas de IA da NVIDIA",
+      "conteudo_texto": "O blog 'AI 5-Layer Cake' da NVIDIA descreve a stack de IA moderna em cinco camadas: infraestrutura (chips e sistemas de computação acelerada), plataforma (ferramentas como CUDA e frameworks de treinamento), modelos (os modelos de fundação em si), aplicações (o produto final que o usuário usa) e serviços (o valor de negócio entregue com apoio humano especializado). Esse modelo ajuda a posicionar onde cada tecnologia NVIDIA (NIM, NeMo, Triton, RAPIDS, etc.) se encaixa na stack de uma startup, e é útil para o Recommendation Agent explicar visualmente em que camada da stack da startup analisada está o gap técnico identificado.",
+      "url_fonte": "https://blogs.nvidia.com/blog/ai-5-layer-cake/",
+      "recomendar_para": "Framework conceitual para estruturar a análise de maturidade técnica da startup e organizar a justificativa das recomendações por camada da stack."
+    }
+  ]
+}

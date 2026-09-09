@@ -1,0 +1,202 @@
+{
+  "startups": [
+    {
+      "nome": "Laura",
+      "site": "https://laura-br.com/",
+      "setor": "Healthtech",
+      "estagio": "Série A",
+      "localizacao": "Curitiba, PR",
+      "descricao_curta": "IA cognitiva para monitoramento hospitalar em tempo real, com foco em detecção precoce de sepse e deterioração clínica.",
+      "ano_fundacao": 2016,
+      "tamanho_time": "100-250",
+      "categoria_esperada": "AI-native"
+    },
+    {
+      "nome": "Escavador",
+      "site": "https://www.escavador.com/",
+      "setor": "Legaltech",
+      "estagio": "Bootstrapped/Growth",
+      "localizacao": "Salvador, BA",
+      "descricao_curta": "Plataforma de dados jurídicos que usa IA (EscavAI) para estruturar processos judiciais e Diários Oficiais e permitir consultas em linguagem natural.",
+      "ano_fundacao": 2014,
+      "tamanho_time": "100-250",
+      "categoria_esperada": "AI-native"
+    },
+    {
+      "nome": "CRIA.AI",
+      "site": "https://criaai.app.br/",
+      "setor": "Legaltech",
+      "estagio": "Adquirida (Preâmbulo Tech)",
+      "localizacao": "Florianópolis, SC",
+      "descricao_curta": "IA jurídica que gera peças processuais e contratos com jurisprudência real e rastreável, treinada com bases de teses jurídicas.",
+      "ano_fundacao": 2023,
+      "tamanho_time": "10-50",
+      "categoria_esperada": "AI-native"
+    },
+    {
+      "nome": "Sette (ex-A de Agro)",
+      "site": "https://www.sette.ag/",
+      "setor": "Agfintech",
+      "estagio": "Growth (fusão A de Agro + Bart Digital)",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Usa imagens de satélite e algoritmos de IA para monitorar propriedades rurais e automatizar análise de crédito e conformidade socioambiental no agronegócio.",
+      "ano_fundacao": 2015,
+      "tamanho_time": "100-250",
+      "categoria_esperada": "AI-native"
+    },
+    {
+      "nome": "Tako",
+      "site": "https://tako.ai/",
+      "setor": "HR Tech",
+      "estagio": "Série A",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Agentes de IA (LLMs + regras trabalhistas brasileiras) que automatizam o fechamento de folha de pagamento e respondem perguntas em linguagem natural sobre custos de pessoal.",
+      "ano_fundacao": 2022,
+      "tamanho_time": "25-100",
+      "categoria_esperada": "AI-native"
+    },
+    {
+      "nome": "Gupy",
+      "site": "https://www.gupy.io/",
+      "setor": "HR Tech",
+      "estagio": "Growth",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "HRTech 'IA First' que usa agentes de IA (Gaia) para triagem e ranqueamento de currículos, reduzindo em até 80% o tempo de contratação.",
+      "ano_fundacao": 2015,
+      "tamanho_time": "500+",
+      "categoria_esperada": "AI-native"
+    },
+    {
+      "nome": "ChatGuru",
+      "site": "https://chatguru.com.br/",
+      "setor": "CX / Atendimento",
+      "estagio": "Growth",
+      "localizacao": "Brasil",
+      "descricao_curta": "Plataforma de automação de atendimento e vendas via WhatsApp (fluxos, multiatendimento); a própria empresa afirma não vender IA generativa, apenas ferramentas de automação de chatbot.",
+      "ano_fundacao": 2016,
+      "tamanho_time": "50-100",
+      "categoria_esperada": "AI-enabled"
+    },
+    {
+      "nome": "Octadesk",
+      "site": "https://www.octadesk.com/",
+      "setor": "CX / Atendimento",
+      "estagio": "Growth",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Plataforma de atendimento multicanal (helpdesk) que incorporou uma camada de IA generativa (WOZ) sobre um produto de tickets e chatbots já existente.",
+      "ano_fundacao": 2014,
+      "tamanho_time": "100-250",
+      "categoria_esperada": "AI-enabled"
+    },
+    {
+      "nome": "Juridoc",
+      "site": "https://www.juridoc.com.br/",
+      "setor": "Legaltech",
+      "estagio": "Growth",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Plataforma de gestão do ciclo de vida de contratos (criação, negociação, assinatura), com camadas de IA agregadas para reduzir tempo de geração de documentos.",
+      "ano_fundacao": 2015,
+      "tamanho_time": "25-100",
+      "categoria_esperada": "AI-enabled"
+    },
+    {
+      "nome": "Defendy",
+      "site": "https://defendy.com.br/",
+      "setor": "Legaltech",
+      "estagio": "Early stage",
+      "localizacao": "Brasil",
+      "descricao_curta": "Conecta cidadãos das classes C, D e E a advogados verificados, usando IA para interpretar o problema relatado e indicar o profissional adequado.",
+      "ano_fundacao": 2023,
+      "tamanho_time": "1-10",
+      "categoria_esperada": "AI-enabled"
+    },
+    {
+      "nome": "Sami",
+      "site": "https://blog.samisaude.com.br/",
+      "setor": "Healthtech / Seguros",
+      "estagio": "Série A+",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Operadora de plano de saúde 100% digital com telemedicina e triagem digital; usa tecnologia e dados, mas não posiciona IA como núcleo do produto.",
+      "ano_fundacao": 2018,
+      "tamanho_time": "250-500",
+      "categoria_esperada": "AI-enabled"
+    },
+    {
+      "nome": "StaryaAI",
+      "site": "https://starya.ai/",
+      "setor": "Consultoria de IA",
+      "estagio": "Early growth",
+      "localizacao": "Brasil",
+      "descricao_curta": "Consultoria e plataforma de governança de agentes de IA para grandes empresas; não constrói produto de IA proprietário para consumo final, atua como camada de orquestração/consultoria sobre IA de terceiros.",
+      "ano_fundacao": 2024,
+      "tamanho_time": "10-50",
+      "categoria_esperada": "AI-enabled"
+    },
+    {
+      "nome": "Enjoei",
+      "site": "https://www.enjoei.com.br/",
+      "setor": "Marketplace de moda circular",
+      "estagio": "Capital aberto (B3: ENJU3)",
+      "localizacao": "Florianópolis, SC",
+      "descricao_curta": "Marketplace de compra e venda de roupas, acessórios e itens usados/seminovos; modelo de consumo colaborativo sem uso relevante de IA divulgado.",
+      "ano_fundacao": 2009,
+      "tamanho_time": "250-500",
+      "categoria_esperada": "non-AI"
+    },
+    {
+      "nome": "Printi",
+      "site": "https://www.printi.com.br/",
+      "setor": "Gráfica online / Impressos personalizados",
+      "estagio": "Adquirida (controle da Cimpress)",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Gráfica online que conecta clientes a produção de impressos personalizados (cartões, embalagens, camisetas); negócio operacional/logístico sem IA como diferencial central.",
+      "ano_fundacao": 2012,
+      "tamanho_time": "250-500",
+      "categoria_esperada": "non-AI"
+    },
+    {
+      "nome": "Sallve",
+      "site": "https://www.sallve.com.br/",
+      "setor": "Beleza / DTC",
+      "estagio": "Growth",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Marca de dermocosméticos nativa digital (direct-to-consumer), com fórmulas co-criadas com a comunidade; foco em produto físico e marca, não em tecnologia de IA.",
+      "ano_fundacao": 2019,
+      "tamanho_time": "50-100",
+      "categoria_esperada": "non-AI"
+    },
+    {
+      "nome": "Wine (W2W E-commerce de Vinhos)",
+      "site": "https://www.wine.com.br/",
+      "setor": "E-commerce / Clube de assinatura",
+      "estagio": "Growth (pré-IPO)",
+      "localizacao": "Vitória, ES",
+      "descricao_curta": "Maior e-commerce e clube de assinatura de vinhos da América Latina; modelo de negócio logístico e de curadoria humana, sem uso relevante de IA divulgado.",
+      "ano_fundacao": 2008,
+      "tamanho_time": "250-500",
+      "categoria_esperada": "non-AI"
+    },
+    {
+      "nome": "Buser",
+      "site": "https://www.buser.com.br/",
+      "setor": "Mobilidade / Fretamento colaborativo",
+      "estagio": "Growth",
+      "localizacao": "São Paulo, SP",
+      "descricao_curta": "Marketplace de fretamento colaborativo de ônibus que conecta passageiros a empresas de fretamento; diferencial é o modelo de negócio, não IA.",
+      "ano_fundacao": 2017,
+      "tamanho_time": "100-250",
+      "categoria_esperada": "non-AI"
+    },
+    {
+      "nome": "Estante Virtual",
+      "site": "https://www.estantevirtual.com.br/",
+      "setor": "Marketplace de livros",
+      "estagio": "Adquirida (Grupo Magalu)",
+      "localizacao": "Rio de Janeiro, RJ",
+      "descricao_curta": "Marketplace que conecta leitores a sebos e livrarias independentes de todo o Brasil; possui um recurso pontual de IA para leitura de listas de livros, mas não é o core do negócio.",
+      "ano_fundacao": 2005,
+      "tamanho_time": "100-250",
+      "categoria_esperada": "non-AI"
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "documentos": [
+    {
+      "startup_nome": "Laura",
+      "tipo": "site institucional",
+      "titulo": "Laura Care - plataforma de cuidado coordenado com IA",
+      "conteudo_texto": "A Laura oferece duas frentes de produto: a Laura Inteligência Clínica, usada dentro de hospitais para monitorar pacientes internados e sinalizar risco de sepse e deterioração clínica; e a Laura Care, voltada a operadoras de saúde, prefeituras e empresas, que faz pré-triagem de sintomas via IA e direciona o paciente para atendimento remoto ou presencial conforme a gravidade do caso. A tecnologia acompanha o paciente ao longo de toda a jornada de cuidado, integrando-se a prontuários eletrônicos e prontuários de diferentes sistemas hospitalares, e envia alertas às equipes de enfermagem e medicina quando identifica padrões de risco nos dados coletados em tempo real.",
+      "url_fonte": "https://laura-br.com/en/products/laura-care/",
+      "data_publicacao": "2022-01-18"
+    },
+    {
+      "startup_nome": "Laura",
+      "tipo": "notícia",
+      "titulo": "Startup curitibana capta aporte para expandir IA de saúde",
+      "conteudo_texto": "Fundada em 2016 em Curitiba, a healthtech Laura recebeu um aporte de capital semente para acelerar o uso de sua inteligência artificial na gestão hospitalar. A tecnologia, apelidada de Robô Laura, monitora dados de pacientes internados e alerta equipes médicas sobre risco de sepse. A empresa relata que sua ferramenta já processou milhões de atendimentos hospitalares e contribuiu para reduzir a taxa de mortalidade em unidades parceiras. Após a rodada, a startup passou a oferecer também a Laura Care, um serviço de triagem remota por IA voltado a operadoras de planos de saúde e secretarias municipais, ampliando sua atuação para além do ambiente hospitalar.",
+      "url_fonte": "https://exame.com/insight/laura-startup-inteligencia-artificial-saude-10-milhoes/p",
+      "data_publicacao": "2021-05-20"
+    },
+    {
+      "startup_nome": "Laura",
+      "tipo": "notícia",
+      "titulo": "Caso de uso: redução de mortalidade por sepse em hospital parceiro",
+      "conteudo_texto": "Um hospital que implementou a solução da Laura registrou aumento expressivo no número de pacientes corretamente identificados dentro do protocolo de sepse após um ano de uso da ferramenta, além de queda relevante na taxa de mortalidade associada à doença. Segundo o time da healthtech, os ganhos vieram da combinação entre o robô cognitivo, que analisa continuamente dados clínicos em busca de sinais de alerta, e o treinamento das equipes de enfermagem para agir rapidamente sobre esses alertas. O hospital também reportou economia financeira relevante em um ano, atribuída à redução do tempo de internação e de complicações evitadas.",
+      "url_fonte": "https://liga.ventures/insights/startups/startup-laura-auxilia-hospital-a-reduzir-a-taxa-de-mortalidade-de-pacientes/",
+      "data_publicacao": "2023-10-05"
+    },
+
+    {
+      "startup_nome": "Escavador",
+      "tipo": "site institucional",
+      "titulo": "Escavador - dados jurídicos estruturados por IA",
+      "conteudo_texto": "O Escavador é uma legaltech fundada em Salvador que organiza informações espalhadas em centenas de sites de tribunais e Diários Oficiais brasileiros, permitindo que qualquer pessoa acompanhe processos judiciais e pesquise dados jurídicos sobre pessoas e empresas. A plataforma oferece um assistente de IA que explica o andamento de um processo em linguagem simples, sem jargão jurídico, além de uma API que entrega dados estruturados de acompanhamento processual, distribuição e diários oficiais para empresas de crédito, escritórios de advocacia e outros clientes corporativos.",
+      "url_fonte": "https://www.escavador.com/",
+      "data_publicacao": "2026-06-01"
+    },
+    {
+      "startup_nome": "Escavador",
+      "tipo": "notícia",
+      "titulo": "Escavador lança assistente de IA generativa para simplificar processos",
+      "conteudo_texto": "A legaltech Escavador anunciou o EscavAI, uma tecnologia de inteligência artificial treinada com centenas de milhões de processos judiciais brasileiros, capaz de responder dúvidas sobre o andamento de um caso em linguagem acessível. Segundo a empresa, o sistema processa diariamente mais de um milhão de novas ações e captura dezenas de milhões de movimentações judiciais por mês, monitorando centenas de sistemas de tribunais e diários oficiais em todo o país. A companhia afirma que a ferramenta foi desenvolvida integralmente no Brasil e busca facilitar o entendimento de processos jurídicos por advogados, estudantes e cidadãos em geral.",
+      "url_fonte": "https://tiinside.com.br/13/03/2025/escavador-lanca-ia-para-simplificar-processos-juridicos-no-brasil/",
+      "data_publicacao": "2025-03-13"
+    },
+    {
+      "startup_nome": "Escavador",
+      "tipo": "notícia",
+      "titulo": "Trajetória da legaltech e uso de IA para crescer no mercado jurídico",
+      "conteudo_texto": "Fundado em 2014 por três amigos formados em Ciência da Computação na Universidade Federal da Bahia, o Escavador começou disponibilizando currículos acadêmicos públicos e evoluiu para monitorar Diários Oficiais, o banco de patentes do INPI e sistemas de tribunais de todo o país. A empresa relata que sua plataforma de inteligência artificial permite pesquisas jurídicas sobre pessoas e empresas em bases de dados públicos, atendendo principalmente pessoas físicas, empresas de análise de crédito, escritórios de advocacia e departamentos jurídicos corporativos. Segundo a companhia, o time é diverso e a tecnologia é peça central da estratégia de crescimento.",
+      "url_fonte": "https://startups.com.br/alem-da-faria-lima/time-diverso-e-ia-sao-as-armas-do-escavador-para-crescer-50-ao-ano/",
+      "data_publicacao": "2025-04-16"
+    },
+
+    {
+      "startup_nome": "CRIA.AI",
+      "tipo": "site institucional",
+      "titulo": "CRIA.AI - geração de documentos jurídicos com IA",
+      "conteudo_texto": "A CRIA.AI é uma plataforma de inteligência artificial voltada a advogados que automatiza a geração de peças processuais, contratos e notificações. O sistema busca jurisprudências reais em bases de dados jurídicas, associa cada argumento gerado a uma citação legal rastreável e permite que o usuário edite ou reorganize o documento antes de finalizá-lo. Segundo a empresa, o objetivo é reduzir o tempo gasto pelos advogados na elaboração de documentos repetitivos, liberando-os para atividades estratégicas, e garantir que o conteúdo gerado tenha embasamento jurídico verificável em vez de ser produzido sem fontes claras.",
+      "url_fonte": "https://criaai.app.br/",
+      "data_publicacao": "2026-04-24"
+    },
+    {
+      "startup_nome": "CRIA.AI",
+      "tipo": "notícia",
+      "titulo": "Preâmbulo Tech assume participação majoritária na CRIA.AI",
+      "conteudo_texto": "A CRIA.AI, startup de Florianópolis fundada em 2023 e até então pertencente ao portfólio da Aleve Legaltech Ventures, recebeu um novo aporte da Preâmbulo Tech, empresa de tecnologia para o setor jurídico brasileiro, que passou a deter participação majoritária no negócio. A movimentação é apresentada pelas partes como um reforço ao potencial das legaltechs de IA no país, unindo a tecnologia de geração de documentos jurídicos da CRIA.AI à estrutura comercial e de distribuição da Preâmbulo Tech, que já atua como fornecedora de soluções tecnológicas para escritórios de advocacia em todo o Brasil.",
+      "url_fonte": "https://www.cbinsights.com/company/criaai",
+      "data_publicacao": "2025-10-24"
+    },
+    {
+      "startup_nome": "CRIA.AI",
+      "tipo": "notícia",
+      "titulo": "Como funciona a automação de peças processuais da CRIA.AI",
+      "conteudo_texto": "A ferramenta da CRIA.AI é descrita como uma estrutura de múltiplas camadas de inteligência artificial que gera documentos jurídicos a partir de dados fornecidos pelo usuário, analisando automaticamente legislação e jurisprudência relevante para montar peças processuais fundamentadas. A plataforma também permite treinar o sistema com os modelos de argumentação e teses jurídicas do próprio escritório de advocacia, personalizando o estilo dos documentos gerados. Segundo relatos publicados, advogados que utilizam a ferramenta afirmam economizar horas de trabalho por peça processual produzida, especialmente em escritórios com grande volume de contencioso repetitivo.",
+      "url_fonte": "https://preambulo.com.br/blog/cria-ai-automacao-juridica-documentos-processuais/",
+      "data_publicacao": "2025-11-19"
+    },
+
+    {
+      "startup_nome": "Sette (ex-A de Agro)",
+      "tipo": "site institucional",
+      "titulo": "Sette - análise de risco agrícola com satélite e IA",
+      "conteudo_texto": "A Sette, resultado da fusão entre A de Agro e Bart Digital, oferece uma plataforma que combina imagens de satélite e algoritmos de inteligência artificial para analisar propriedades rurais. O sistema identifica automaticamente as culturas plantadas em cada talhão, estima a produtividade histórica da área e avalia a conformidade socioambiental do imóvel, verificando questões como desmatamento e sobreposição a áreas indígenas. A empresa atende bancos, gestoras de fundos e outras instituições financeiras que precisam avaliar o risco de conceder crédito a produtores rurais, reunindo em uma única plataforma a análise de risco, a busca de certidões e a formalização de garantias agrícolas.",
+      "url_fonte": "https://www.sette.ag/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Sette (ex-A de Agro)",
+      "tipo": "notícia",
+      "titulo": "A de Agro usa IA e imagens de satélite para crédito rural",
+      "conteudo_texto": "A agfintech brasileira A de Agro lançou uma ferramenta que utiliza inteligência artificial e análise territorial para automatizar avaliações de crédito e carteiras de produtores no agronegócio, já tendo movimentado centenas de milhões de reais em ativos por meio da plataforma. O sistema combina imagens de satélite com algoritmos que identificam culturas plantadas, histórico produtivo e riscos operacionais de cada propriedade, permitindo que bancos e gestoras de fundos tomem decisões mais precisas sem precisar contratar múltiplos fornecedores de dados agrícolas separadamente.",
+      "url_fonte": "https://www.agrolink.com.br/noticias/inteligencia-artificial-aprimora-analise-de-credito-do-agro_481907.html",
+      "data_publicacao": "2023-07-28"
+    },
+    {
+      "startup_nome": "Sette (ex-A de Agro)",
+      "tipo": "notícia",
+      "titulo": "Fusão entre A de Agro e Bart Digital cria a Sette",
+      "conteudo_texto": "As agfintechs A de Agro, especializada em monitoramento de propriedades rurais e análise de risco com inteligência artificial, e Bart Digital, focada na formalização de títulos e garantias agrícolas, anunciaram a fusão de suas operações em uma única companhia, batizada de Sette. Juntas, as empresas somam bilhões de reais em títulos e garantias agrícolas movimentados, com atuação em mais de mil cidades brasileiras. A combinação busca oferecer aos clientes financeiros do agronegócio uma solução completa que vai da análise de risco à formalização de contratos de crédito, tudo apoiado pela mesma base de dados territoriais.",
+      "url_fonte": "https://agfeed.com.br/agtech/agfintechs/",
+      "data_publicacao": "2024-06-05"
+    },
+
+    {
+      "startup_nome": "Tako",
+      "tipo": "site institucional",
+      "titulo": "Tako - agentes de IA para folha de pagamento",
+      "conteudo_texto": "A Tako é descrita como uma plataforma de inteligência artificial para recursos humanos, cujos agentes executam o ciclo completo da jornada do colaborador: admissão, folha de pagamento, férias, desligamentos e benefícios. A empresa afirma ter transformado toda a legislação trabalhista brasileira em regras de código e agentes de IA, capazes de responder e interpretar a lei considerando o contexto específico de cada empresa cliente. Os agentes se conectam a sistemas já usados pelas empresas, como SAP, Oracle e TOTVS, centralizando dados de diferentes fontes sem exigir que o cliente troque de sistema.",
+      "url_fonte": "https://tako.ai/en/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Tako",
+      "tipo": "notícia",
+      "titulo": "Tako capta R$ 100 milhões para agentes de IA em RH",
+      "conteudo_texto": "A hrtech Tako, fundada por um cofundador da Rappi e um cofundador da DogHero, captou uma rodada Série A para acelerar o uso de agentes de inteligência artificial que automatizam o fechamento da folha de pagamento nas empresas brasileiras. Segundo a companhia, o sistema combina grandes modelos de linguagem com bases de regras trabalhistas formais e dados internos de cada cliente, sendo capaz de revisar lançamentos, identificar inconsistências e responder perguntas em linguagem natural sobre custos de pessoal. A empresa relata ter processado bilhões de reais em pagamentos e economizado milhares de dias úteis de trabalho manual entre seus clientes.",
+      "url_fonte": "https://braziljournal.com/tako-capta-mais-r-100-milhoes-para-reinventar-a-folha-com-ai/",
+      "data_publicacao": "2025-07-30"
+    },
+    {
+      "startup_nome": "Tako",
+      "tipo": "notícia",
+      "titulo": "Tako lança agente de IA para análises de RH e Finanças",
+      "conteudo_texto": "A Tako anunciou o Agente Analista, um novo agente de inteligência artificial que atua diretamente sobre as bases estruturadas de dados de pessoas e folha de pagamento dos clientes, aplicando o conceito de agentes de IA à tomada de decisão em RH e Finanças. Segundo a empresa, mesmo com a popularização da IA generativa, muitas análises estratégicas de custo de pessoal ainda dependem de planilhas e exportações de dados manuais, o que gera gargalos operacionais. O novo agente combina modelos de linguagem, regras de negócio e acesso direto à base de dados da própria plataforma da Tako.",
+      "url_fonte": "https://itsection.com.br/2026/02/11/tako-lanca-agente-de-ia-para-rh-e-financas/",
+      "data_publicacao": "2026-02-11"
+    },
+
+    {
+      "startup_nome": "Gupy",
+      "tipo": "site institucional",
+      "titulo": "Gupy - recrutamento e seleção com agentes de IA",
+      "conteudo_texto": "A Gupy oferece um software de recrutamento e seleção que usa agentes de inteligência artificial para recomendar candidatos do banco de talentos da empresa cliente e de sua própria base de currículos, com filtros inteligentes de busca. A plataforma automatiza etapas de triagem, organiza o funil de contratação e disponibiliza dashboards estratégicos para acompanhamento das vagas. Segundo a empresa, os agentes de IA estão disponíveis nos planos avançados e têm como objetivo reduzir vieses na etapa de ordenação de currículos, deixando a decisão final sempre a cargo dos recrutadores humanos.",
+      "url_fonte": "https://www.gupy.io/software-de-recrutamento-e-selecao",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Gupy",
+      "tipo": "notícia",
+      "titulo": "Como a Gupy usa a Gaia para triagem de currículos",
+      "conteudo_texto": "A Gupy afirma ter desenvolvido a primeira inteligência artificial para recrutamento e seleção do Brasil, batizada de Gaia, usada para realizar a pré-triagem de candidatos antes da análise humana. Segundo a empresa, a IA lê os currículos em frações de segundo e os ranqueia em uma escala de aderência à vaga, considerando experiências profissionais, formação acadêmica e histórico de carreira, com uma taxa de assertividade divulgada pela própria companhia. A ferramenta busca liberar tempo dos recrutadores para focar na análise comportamental e no ajuste cultural dos candidatos mais bem posicionados no ranqueamento.",
+      "url_fonte": "https://www.gupy.io/blog/como-usar-a-inteligencia-artificial-para-recrutar",
+      "data_publicacao": "2025-04-28"
+    },
+    {
+      "startup_nome": "Gupy",
+      "tipo": "notícia",
+      "titulo": "Gupy detalha funcionamento dos agentes de IA na ordenação de candidatos",
+      "conteudo_texto": "A Gupy publicou uma explicação sobre como seus agentes de inteligência artificial avaliam currículos submetidos a vagas na plataforma. Segundo a empresa, os agentes usam processamento de linguagem natural para interpretar informações de diferentes fontes, como currículos e formulários de candidatura, comparando o perfil de cada pessoa aos requisitos da vaga e organizando uma lista priorizada para o time de recrutamento revisar. A companhia afirma que o sistema também recomenda candidatos do banco de talentos para vagas em que eles não se inscreveram diretamente, ampliando a visibilidade de quem já está cadastrado na base.",
+      "url_fonte": "https://www.gupy.io/blog/automacao-triagem-curriculos",
+      "data_publicacao": "2026-05-20"
+    },
+
+    {
+      "startup_nome": "ChatGuru",
+      "tipo": "site institucional",
+      "titulo": "ChatGuru - automação de atendimento no WhatsApp",
+      "conteudo_texto": "O ChatGuru é uma plataforma brasileira de automação de atendimento e vendas via WhatsApp voltada a pequenas e médias empresas com operações mais complexas, como escritórios de advocacia. A ferramenta permite operar múltiplos números e atendentes simultaneamente, seja pelo WhatsApp Web, pela API Oficial da Meta (WABA) ou por um modo híbrido chamado CoEx. Entre os recursos oferecidos estão fluxos de conversa pré-configurados para qualificação de leads, etiquetas e anotações internas para organizar atendimentos, e um funil visual que mostra em qual etapa cada conversa se encontra, do primeiro contato ao pós-venda.",
+      "url_fonte": "https://chatguru.com.br/",
+      "data_publicacao": "2026-06-15"
+    },
+    {
+      "startup_nome": "ChatGuru",
+      "tipo": "notícia",
+      "titulo": "Review aponta que ChatGuru não vende IA, apenas automação",
+      "conteudo_texto": "Um material educativo publicado pelo próprio ChatGuru esclarece que a empresa não comercializa um serviço de inteligência artificial generativa para atendimento no WhatsApp, oferecendo em vez disso ferramentas para criação e automação de fluxos de chatbot baseados em regras. O conteúdo explica de forma geral como soluções de IA para atendimento costumam funcionar no mercado, incluindo processamento de linguagem natural e aprendizado contínuo a partir de interações, mas posiciona o produto da própria empresa como uma camada de automação e organização de conversas, não como um motor de inteligência artificial conversacional.",
+      "url_fonte": "https://chatguru.com.br/blog/ia-para-atendimento-no-whatsapp-para-o-suporte-ao-cliente/",
+      "data_publicacao": "2026-06-25"
+    },
+    {
+      "startup_nome": "ChatGuru",
+      "tipo": "notícia",
+      "titulo": "Review independente descreve posicionamento do ChatGuru no mercado",
+      "conteudo_texto": "Uma análise independente sobre ferramentas de automação de WhatsApp descreve o ChatGuru como uma plataforma SaaS brasileira voltada a operações complexas de atendimento, com integrações voltadas principalmente ao setor jurídico. Segundo o texto, a empresa não divulga preços publicamente e se apresenta como solução de automação para operações com múltiplos atendentes e números, oferecendo três modos de operação com diferentes níveis de conformidade com as regras da Meta para uso comercial do WhatsApp. O material destaca que a distinção entre esses modos afeta diretamente o custo e o enquadramento legal da operação do cliente.",
+      "url_fonte": "https://tudoprawhats.com.br/chatguru",
+      "data_publicacao": "2026-07-25"
+    },
+
+    {
+      "startup_nome": "Octadesk",
+      "tipo": "site institucional",
+      "titulo": "Octadesk - central de atendimento com IA generativa",
+      "conteudo_texto": "A Octadesk centraliza canais de atendimento como WhatsApp Oficial, Instagram Direct, Facebook Messenger e chat do site em uma única tela, transformando cada solicitação em um ticket com histórico único por cliente. A plataforma inclui o WOZ, descrito pela empresa como sua inteligência artificial generativa, que interpreta a linguagem natural do cliente, entende áudios e busca respostas na base de conhecimento da empresa contratante, diferentemente de um chatbot tradicional baseado apenas em botões e fluxos fixos previamente configurados.",
+      "url_fonte": "https://www.octadesk.com/produtos/plataforma-de-atendimento",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Octadesk",
+      "tipo": "notícia",
+      "titulo": "Cliente relata redução de 70% no tempo de atendimento com WOZ",
+      "conteudo_texto": "Um cliente da Octadesk relatou publicamente uma redução expressiva no tempo médio de atendimento após adotar o WOZ, a camada de inteligência artificial da plataforma, afirmando que solicitações que antes levavam cerca de uma semana para serem resolvidas passaram a ser concluídas em poucos dias. Outro depoimento citado pela empresa aponta alta taxa de resolução de casos diretamente pelo agente de IA em um período curto de implementação, liberando a equipe humana para lidar apenas com atendimentos mais complexos. A Octadesk afirma que o recurso está incluso em todos os planos vigentes, sem cobrança adicional por conversa resolvida.",
+      "url_fonte": "https://www.octadesk.com/lp/chatbot",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Octadesk",
+      "tipo": "notícia",
+      "titulo": "Octadesk descreve diferença entre chatbot tradicional e IA generativa",
+      "conteudo_texto": "Em material de divulgação, a Octadesk explica a diferença entre um chatbot comum, que segue apenas fluxos fixos programados previamente, e o WOZ, sua camada de inteligência artificial generativa. Segundo a empresa, o WOZ lê o que o cliente escreve, consulta a base de conhecimento da empresa contratante e, quando necessário, executa ações diretamente em sistemas integrados, sem que a empresa precise programar manualmente cada cenário possível de atendimento. A companhia afirma que a plataforma já trocou bilhões de mensagens entre empresas e consumidores desde seu lançamento.",
+      "url_fonte": "https://www.octadesk.com/lp/helpdesk",
+      "data_publicacao": "2026-01-01"
+    },
+
+    {
+      "startup_nome": "Juridoc",
+      "tipo": "site institucional",
+      "titulo": "Juridoc - gestão do ciclo de vida de contratos",
+      "conteudo_texto": "A Juridoc se descreve como uma plataforma completa de gestão de contratos, permitindo que usuários solicitem, criem, enviem, negociem, assinem e rastreiem documentos legais em um único ambiente online, com colaboração simultânea entre várias pessoas em diferentes localizações. A empresa afirma que seu objetivo é usar inteligência artificial para ajudar clientes a negociar melhor e reduzir significativamente o tempo necessário para gerar documentos jurídicos livres de erros, embora o núcleo do produto seja a automação e centralização do fluxo de trabalho contratual, não um sistema de geração de texto por IA como diferencial único.",
+      "url_fonte": "https://www.juridoc.com.br/blog/tag/juridoc/",
+      "data_publicacao": "2019-08-02"
+    },
+    {
+      "startup_nome": "Juridoc",
+      "tipo": "notícia",
+      "titulo": "Avaliações de usuários destacam facilidade de uso da Juridoc",
+      "conteudo_texto": "Avaliações publicadas em um site de comparação de softwares corporativos destacam a interface intuitiva da Juridoc e a possibilidade de vários colegas trabalharem no mesmo contrato simultaneamente, além do armazenamento seguro de documentos. Usuários mencionam apreciar a funcionalidade de solicitações, que permite concentrar todos os pedidos de revisão contratual da empresa em um único aplicativo, e o recurso de alertas de expiração e renovação, que ajuda a evitar a perda de prazos importantes de contratos em vigor.",
+      "url_fonte": "https://www.capterra.com/p/186021/Juridoc/",
+      "data_publicacao": "2025-01-01"
+    },
+    {
+      "startup_nome": "Juridoc",
+      "tipo": "notícia",
+      "titulo": "Juridoc é descrita como referência em gestão de contratos no Brasil",
+      "conteudo_texto": "Um catálogo de legaltechs brasileiras descreve a Juridoc como uma solução completa para documentos jurídicos mais inteligentes, que facilita a criação, negociação, assinatura e gerenciamento de contratos em uma única plataforma. Segundo o material, a empresa afirma reduzir em até 80% o tempo necessário para gerar documentos legais livres de erros, automatizando o fluxo de trabalho contratual e aprimorando a conformidade das empresas clientes com processos internos de aprovação.",
+      "url_fonte": "https://legaltechnobrasil.com.br/empresa/juridoc/",
+      "data_publicacao": "2019-08-02"
+    },
+
+    {
+      "startup_nome": "Defendy",
+      "tipo": "site institucional",
+      "titulo": "Defendy - conexão entre cidadãos e advogados via IA",
+      "conteudo_texto": "A Defendy se apresenta como uma plataforma que conecta pessoas a advogados adequados ao seu caso, usando inteligência artificial para interpretar a situação descrita pelo usuário e sugerir o profissional mais indicado. O fluxo do produto começa com a descrição da necessidade jurídica em um campo de busca, segue com a comparação de perfis, avaliações e recomendações de outros clientes, e termina com o agendamento da consulta diretamente pela plataforma, sem que o usuário precise sair de casa para dar o primeiro passo em um processo jurídico.",
+      "url_fonte": "https://defendy.com.br/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Defendy",
+      "tipo": "notícia",
+      "titulo": "Fundador da Defendy fala sobre acesso à Justiça via tecnologia",
+      "conteudo_texto": "O fundador da Defendy, um advogado brasileiro com experiência internacional em grandes escritórios, afirma que a legaltech usa inteligência artificial para conectar cidadãos das classes C, D e E a advogados acessíveis e verificados. Segundo ele, a plataforma atua como um concierge jurídico digital, entendendo o problema relatado pelo cliente e direcionando-o ao profissional mais adequado, com suporte durante toda a jornada e em conformidade com as normas da Ordem dos Advogados do Brasil. O fundador destaca que a tecnologia tem potencial de aproximar milhões de brasileiros sem orientação jurídica regular do sistema de Justiça.",
+      "url_fonte": "https://fusoesaquisicoes.com/hr/alem-das-fintechs-startups-juridicas-atraem-capital/",
+      "data_publicacao": "2025-09-11"
+    },
+    {
+      "startup_nome": "Defendy",
+      "tipo": "notícia",
+      "titulo": "Defendy é citada entre legaltechs de acesso à Justiça",
+      "conteudo_texto": "Uma reportagem sobre legaltechs brasileiras cita a Defendy como exemplo de acesso à Justiça e inclusão social, descrevendo seu funcionamento como um concierge jurídico digital que orienta pessoas com pouca familiaridade com o sistema legal, desde a avaliação inicial do caso até o agendamento da primeira consulta com um advogado. Segundo o texto, a plataforma tem potencial de atender uma parcela expressiva da população brasileira que enfrenta problemas jurídicos sem orientação adequada, especialmente famílias de menor renda.",
+      "url_fonte": "https://startups.com.br/negocios/dia-do-advogado-13-legaltechs-brasileiras-que-estao-transformando-o-setor-juridico/",
+      "data_publicacao": "2025-08-11"
+    },
+
+    {
+      "startup_nome": "Sami",
+      "tipo": "site institucional",
+      "titulo": "Sami - plano de saúde digital para pequenas empresas",
+      "conteudo_texto": "A Sami é uma operadora de planos de saúde nascida totalmente digital, com foco inicial em pequenas e médias empresas e profissionais liberais. Pelo aplicativo, o beneficiário acessa histórico médico, exames e receitas, além de poder falar por texto, áudio e vídeo com o Time de Saúde da operadora. A empresa combina uma rede médica credenciada mais enxuta com atenção primária e telemedicina 24 horas, buscando reduzir custos para o empregador e oferecer acesso mais ágil ao atendimento inicial antes de encaminhar o paciente para especialistas.",
+      "url_fonte": "https://blog.samisaude.com.br/sami-lanca-primeiro-plano-saude-digital/",
+      "data_publicacao": "2020-11-11"
+    },
+    {
+      "startup_nome": "Sami",
+      "tipo": "notícia",
+      "titulo": "Sami capta rodada recorde para healthtech na América Latina",
+      "conteudo_texto": "A Sami, healthtech fundada em 2018 por dois empreendedores da área de saúde, recebeu uma rodada Série A considerada a maior já registrada em uma startup de saúde na América Latina até então. O investimento foi destinado a expandir a operação da empresa como operadora de planos de saúde digitais, com telemedicina dedicada à triagem de pacientes e digitalização de históricos médicos. Segundo a reportagem, a maior parte dos atendimentos realizados pela empresa acontece de forma totalmente online, refletindo o modelo de negócio nascido digital da companhia.",
+      "url_fonte": "https://www.infomoney.com.br/negocios/plano-de-saude-no-estilo-startup-sami-recebe-investimento-de-r-86-milhoes/",
+      "data_publicacao": "2020-10-20"
+    },
+    {
+      "startup_nome": "Sami",
+      "tipo": "notícia",
+      "titulo": "Sami capta nova rodada para crescer entre empresas maiores",
+      "conteudo_texto": "A Sami anunciou uma nova captação de recursos para expandir sua base de clientes corporativos, incluindo empresas de maior porte, mantendo o foco em uma rede credenciada mais enxuta como forma de reduzir custos para os empregadores. A reportagem destaca que a healthtech conta com hospitais credenciados na rede de São Paulo, mas concentra boa parte de sua proposta de valor nos serviços de telemedicina para triagem digital e no acompanhamento contínuo do histórico médico dos beneficiários pelo aplicativo da empresa.",
+      "url_fonte": "https://exame.com/negocios/startup-sami-planos-de-saude-capta-90-milhoes/",
+      "data_publicacao": "2023-06-01"
+    },
+
+    {
+      "startup_nome": "StaryaAI",
+      "tipo": "site institucional",
+      "titulo": "StaryaAI - governança de agentes de IA para operações reguladas",
+      "conteudo_texto": "A StaryaAI se posiciona como uma empresa de agentes de inteligência artificial e plataforma de governança voltada a operações de negócio em setores regulados. A companhia nasceu aplicando IA generativa a dores operacionais de grandes empresas, começando por agentes de acompanhamento de pacientes em saúde mental, e evoluiu para uma plataforma chamada NebulaOS, que centraliza diferentes agentes de IA e automações usados por uma mesma empresa cliente, permitindo controlar consumo de recursos computacionais, rastrear decisões tomadas pelos agentes e integrar agentes desenvolvidos internamente pelos próprios clientes.",
+      "url_fonte": "https://starya.ai/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "StaryaAI",
+      "tipo": "notícia",
+      "titulo": "StaryaAI projeta triplicar faturamento com plataforma de governança",
+      "conteudo_texto": "A StaryaAI, fundada por um empreendedor que já havia criado uma startup de telemedicina adquirida por um grande grupo hospitalar, projeta triplicar sua receita anual impulsionada pelo lançamento do NebulaOS, plataforma que organiza e audita agentes de inteligência artificial usados por empresas clientes. Segundo o fundador, muitas organizações ainda mantêm agentes de IA dispersos, sem integração entre departamentos, e o próximo passo do mercado será institucionalizar essa tecnologia como parte da operação regular do negócio, com segurança e rastreabilidade das decisões tomadas por esses agentes.",
+      "url_fonte": "https://businessmoment.com.br/staryaai-faturamento-plataforma-agentes-ia/",
+      "data_publicacao": "2026-07-31"
+    },
+    {
+      "startup_nome": "StaryaAI",
+      "tipo": "notícia",
+      "titulo": "StaryaAI implementa central de atendimento por voz com IA generativa",
+      "conteudo_texto": "A StaryaAI entregou um projeto de atendimento por voz com inteligência artificial generativa para uma grande operadora de saúde brasileira, em parceria com uma empresa especializada em contact center. O objetivo do projeto era reduzir o tempo de atendimento a beneficiários e evoluir um modelo de chatbot já existente para uma experiência totalmente automatizada por voz na central telefônica. O caso é citado pela empresa como exemplo de como seus agentes de IA são aplicados a processos operacionais concretos de grandes clientes corporativos, além dos projetos de governança de IA mais recentes.",
+      "url_fonte": "https://legismap.com.br/conteudos/artigos-e-noticias/startup-brasileira-de-ia-fecha-parceria-com-uma-das-maiores-operadoras-de-saude-do-brasil",
+      "data_publicacao": "2025-10-28"
+    },
+
+    {
+      "startup_nome": "Enjoei",
+      "tipo": "site institucional",
+      "titulo": "Enjoei - marketplace de moda circular",
+      "conteudo_texto": "O Enjoei é descrito como um marketplace de comércio eletrônico brasileiro que promove o consumo colaborativo, permitindo que vendedores criem suas próprias lojas virtuais para comercializar roupas, acessórios, móveis, eletrodomésticos e outros itens usados ou seminovos. A plataforma pode ser acessada por aplicativo ou site, oferecendo grande variedade de categorias de produtos. A empresa nasceu como um blog pessoal em 2009 e hoje possui capital aberto na bolsa brasileira, tendo expandido seu portfólio de marcas ao adquirir outro marketplace de itens exclusivos e artesanais em anos recentes.",
+      "url_fonte": "https://www.enjoei.com.br/ajuda/sobre-o-enjoei/sobre-o-que-e-o-enjoei",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Enjoei",
+      "tipo": "notícia",
+      "titulo": "Enjoei expande para o varejo físico com franquias",
+      "conteudo_texto": "Após consolidar sua operação online, com mais de um milhão de vendedores ativos e milhões de produtos disponíveis na plataforma, o Enjoei anunciou um movimento de expansão para lojas físicas por meio de um modelo de franquias dedicado à compra e venda de roupas usadas. Segundo a empresa, o mercado de produtos de segunda mão no varejo físico é consideravelmente maior que o mercado digital equivalente, o que motivou a decisão de sair do ambiente puramente online após quinze anos de operação, mantendo o foco na democratização do acesso à moda.",
+      "url_fonte": "https://www.franquiasenjoei.com.br/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Enjoei",
+      "tipo": "notícia",
+      "titulo": "Como funciona o modelo de consumo colaborativo do Enjoei",
+      "conteudo_texto": "Uma matéria explicativa descreve o Enjoei como uma empresa de comércio eletrônico brasileira que promove o consumo colaborativo, funcionando como um marketplace no qual vendedores criam suas próprias lojas virtuais para negociar diretamente com compradores interessados. A plataforma pode ser acessada tanto pelo aplicativo quanto pelo site e oferece uma ampla variedade de categorias, incluindo roupas, acessórios, produtos de beleza, móveis e itens de decoração, sem depender de recursos de inteligência artificial como diferencial de produto.",
+      "url_fonte": "https://olhardigital.com.br/2023/04/13/internet-e-redes-sociais/o-que-e-e-como-funciona-o-enjoei-site-de-produtos-usados/",
+      "data_publicacao": "2023-04-13"
+    },
+
+    {
+      "startup_nome": "Printi",
+      "tipo": "site institucional",
+      "titulo": "Printi - gráfica online e personalização de impressos",
+      "conteudo_texto": "A Printi se descreve como uma gráfica online que revolucionou o mercado de impressão personalizada no Brasil, com um editor online que permite personalizar materiais gráficos diretamente pelo navegador, sem depender de softwares especializados. A empresa nasceu conectando clientes a gráficas já existentes no mercado e, com o tempo, verticalizou o negócio ao construir seu próprio parque gráfico. Ao longo de mais de uma década de operação, a companhia se tornou um ecossistema de projetos gráficos que combina tecnologia, design e produção física para atender pequenas e médias empresas em todo o país.",
+      "url_fonte": "https://www.printi.com.br/blog/aniversario-printi",
+      "data_publicacao": "2025-08-08"
+    },
+    {
+      "startup_nome": "Printi",
+      "tipo": "notícia",
+      "titulo": "Printi investe em capacidade de impressão para crescer",
+      "conteudo_texto": "A Printi, fundada em 2012, investiu dezenas de milhões de reais na instalação de máquinas de impressão consideradas entre as mais modernas do mundo, aumentando significativamente sua capacidade de produção em sua unidade em Barueri, São Paulo. Segundo a reportagem, a empresa otimiza pedidos de baixa tiragem imprimindo diversos pedidos na mesma folha de papel, reduzindo perdas e permitindo atender pequenas e médias empresas a preços competitivos. A companhia atende milhares de clientes, incluindo grandes empresas nacionais e multinacionais, com um faturamento crescente mesmo em um setor gráfico tradicionalmente estagnado.",
+      "url_fonte": "https://neofeed.com.br/startups/na-era-digital-a-printi-nao-para-de-ganhar-dinheiro-com-o-papel/",
+      "data_publicacao": "2024-03-27"
+    },
+    {
+      "startup_nome": "Printi",
+      "tipo": "notícia",
+      "titulo": "Printi passa a ser controlada pela gigante irlandesa Cimpress",
+      "conteudo_texto": "O controle acionário da Printi foi assumido pela empresa irlandesa Cimpress, uma das maiores gráficas online do mundo, que já era investidora minoritária do negócio desde 2015. Com a mudança de controle, a Printi passou a ser comandada por um executivo que já atuava internamente na empresa e definiu como meta conquistar diretamente o consumidor final, além de continuar atendendo pequenas e médias empresas com produtos personalizados que vão de camisetas e canecas a embalagens corporativas.",
+      "url_fonte": "https://www.terra.com.br/noticias/tecnologia/inovacao/com-novo-dono-grafica-online-printi-poe-consumidor-final-na-mira,2a34f82f007762d6af4a663595642802ztlntxgz.html",
+      "data_publicacao": "2020-06-19"
+    },
+
+    {
+      "startup_nome": "Sallve",
+      "tipo": "site institucional",
+      "titulo": "Sallve - dermocosméticos nativos digitais",
+      "conteudo_texto": "A Sallve se define como uma marca de dermocosméticos nativa digital, criada para desenvolver fórmulas inovadoras, seguras e de alta performance para a pele brasileira. A empresa afirma ouvir ativamente sua comunidade de consumidores no desenvolvimento de novos produtos, combinando essa escuta com o trabalho de uma equipe de cientistas. Todos os produtos são livres de crueldade animal e a marca se posiciona pela transparência de fórmulas e por preços considerados justos, vendendo tanto pelo site próprio quanto por farmácias e marketplaces parceiros em todo o Brasil.",
+      "url_fonte": "https://www.sallve.com.br/pages/sobre",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Sallve",
+      "tipo": "notícia",
+      "titulo": "Sallve nasce como marca de beleza com sócia influenciadora",
+      "conteudo_texto": "A Sallve foi apresentada ao mercado como uma nova marca brasileira de skincare com fórmulas seguras, limpas e livres de testes em animais, tendo como uma das sócias uma conhecida criadora de conteúdo de beleza responsável pela direção criativa da marca. Segundo a cobertura da época, um dos diferenciais estratégicos da empresa seria desenvolver produtos co-criados com a própria comunidade de consumidores, ouvindo ativamente suas necessidades antes de lançar cada fórmula, em vez de seguir o modelo tradicional de desenvolvimento de produtos de beleza fechado internamente.",
+      "url_fonte": "https://diadebeaute.com/2019/02/08/salve-sallve-tudo-sobre-a-nova-marca-de-skincare-brasileira-que-tem-julia-petit-como-socia/",
+      "data_publicacao": "2021-08-12"
+    },
+    {
+      "startup_nome": "Sallve",
+      "tipo": "notícia",
+      "titulo": "Sallve se descreve como startup de beleza direct-to-consumer",
+      "conteudo_texto": "Em sua página corporativa, a Sallve se apresenta como uma startup brasileira de beleza no modelo direct-to-consumer, obcecada pela experiência de sua comunidade de clientes. A empresa afirma que sua missão vai além de criar uma marca de produtos, buscando construir um espaço que conecta pessoas, ideias e conteúdos sobre um novo mercado de beleza no Brasil. A companhia conta com investimento de fundos de venture capital brasileiros e um time dedicado a desenvolver fórmulas inspiradas em necessidades reais relatadas pelos próprios consumidores.",
+      "url_fonte": "https://www.linkedin.com/company/sallve",
+      "data_publicacao": "2026-01-01"
+    },
+
+    {
+      "startup_nome": "Wine (W2W E-commerce de Vinhos)",
+      "tipo": "site institucional",
+      "titulo": "Wine - maior clube de assinatura de vinhos do mundo",
+      "conteudo_texto": "A Wine se apresenta como o maior e-commerce e o maior clube de assinatura de vinhos do mundo, reunindo mais de dez anos de operação no mercado brasileiro. A empresa oferece um clube de assinatura no qual especialistas selecionam mensalmente uma seleção de rótulos para os assinantes, além de vender vinhos avulsos, acessórios de degustação e produtos gourmet pelo site. Ao longo de sua história, a companhia expandiu para operações B2B voltadas a restaurantes e revendedores e para venda direta, consolidando-se como a maior importadora de vinhos do Brasil.",
+      "url_fonte": "https://www.wine.com.br/institucional/quem-somos/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Wine (W2W E-commerce de Vinhos)",
+      "tipo": "notícia",
+      "titulo": "Wine pede registro de oferta pública de ações",
+      "conteudo_texto": "A Wine, cujo nome oficial de registro é W2W E-Commerce de Vinhos, protocolou pedido de oferta inicial de ações na bolsa brasileira, movimento que ilustra o interesse crescente do mercado de capitais por empresas de setores variados da economia. Fundada há mais de uma década, a companhia tem entre seus sócios fundos ligados a famílias empresariais brasileiras conhecidas. Os recursos captados na operação seriam destinados a investimentos em marketing, tecnologia, logística, expansão de lojas físicas e possíveis aquisições de outras empresas do setor.",
+      "url_fonte": "https://www.ecommercebrasil.com.br/noticias/ecommerce-vinhos-wine-ipo",
+      "data_publicacao": "2021-07-04"
+    },
+    {
+      "startup_nome": "Wine (W2W E-commerce de Vinhos)",
+      "tipo": "notícia",
+      "titulo": "Fundador conta a trajetória da Wine até se tornar líder do setor",
+      "conteudo_texto": "Em entrevista, o fundador da Wine relatou que a empresa nasceu em 2008 a partir de sua experiência prévia como vendedor de vinhos, tendo lançado o clube de assinatura da marca em 2010 e uma plataforma B2B para restaurantes e revendedores em 2014. Segundo ele, a companhia se tornou o maior e-commerce de vinhos da América Latina e o maior clube de assinatura do mundo no segmento, expandindo posteriormente as operações para o México. O executivo permaneceu à frente da empresa como CEO por quase duas décadas antes de migrar para o conselho de administração.",
+      "url_fonte": "https://exame.com/colunistas/empreender-liberta/da-inquietude-para-o-maior-e-commerce-de-vinhos-do-mundo/",
+      "data_publicacao": "2023-03-30"
+    },
+
+    {
+      "startup_nome": "Buser",
+      "tipo": "site institucional",
+      "titulo": "Buser - fretamento colaborativo de ônibus",
+      "conteudo_texto": "A Buser se descreve como uma startup de tecnologia que democratiza o acesso a viagens de ônibus no Brasil, sem possuir frota própria. O modelo de negócio conecta pessoas interessadas em viajar para o mesmo destino a empresas de fretamento privadas devidamente autorizadas, dividindo entre os passageiros o custo do ônibus fretado. A plataforma permite acompanhar o status da confirmação da viagem em tempo real, informando a probabilidade de determinado grupo atingir o número mínimo de passageiros pagantes necessário para a viagem se concretizar.",
+      "url_fonte": "https://www.buser.com.br/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Buser",
+      "tipo": "notícia",
+      "titulo": "História da Buser: de um casamento a uma rede de fretamento",
+      "conteudo_texto": "A Buser foi criada em 2017 depois que seu fundador precisou encontrar uma solução de transporte acessível para levar um grupo de convidados ao próprio casamento, percebendo que o fretamento de ônibus podia ser mais econômico que meios de transporte tradicionais. A partir dessa experiência, a empresa desenvolveu um modelo de intermediação entre passageiros e operadores de transporte, sem manter frota própria, estabelecendo parcerias com centenas de empresas de ônibus fretado e já tendo transportado milhões de passageiros em todo o país.",
+      "url_fonte": "https://connectedfleet.michelin.com/pt-br/blog/buser-e-michelin-uma-parceria-que-contribui-para-a-mobilidade-segura-e-sustent%C3%A1vel",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Buser",
+      "tipo": "notícia",
+      "titulo": "Como funciona o fretamento colaborativo da Buser",
+      "conteudo_texto": "Uma matéria explicativa descreve o fretamento colaborativo da Buser como um modelo em que um grupo de passageiros se une para contratar um ônibus fretado, em vez de comprar passagens tradicionais em uma rodoviária. A reserva é feita pelo aplicativo ou site da empresa, sem custo até a confirmação da viagem, que só ocorre quando um número mínimo de passageiros pagantes é atingido. Segundo o texto, a empresa não é uma operadora de transporte, mas uma plataforma tecnológica que conecta passageiros a empresas de fretamento reguladas, dividindo o custo do veículo entre todos os viajantes do grupo.",
+      "url_fonte": "https://mundoatualizado.com.br/como-funciona-o-servico-de-fretamento-colaborativo-da-buser/",
+      "data_publicacao": "2025-03-20"
+    },
+
+    {
+      "startup_nome": "Estante Virtual",
+      "tipo": "site institucional",
+      "titulo": "Estante Virtual - marketplace de livros novos e usados",
+      "conteudo_texto": "A Estante Virtual foi criada em 2005 com o objetivo de democratizar o acesso à leitura no Brasil, conectando leitores a pequenos livreiros, sebos e livrarias independentes de todo o país por meio de um marketplace de livros novos e usados. Desde 2020, a marca faz parte do grupo Magazine Luiza. A plataforma também oferece um recurso pontual de inteligência artificial que lê listas escolares enviadas em PDF, foto ou print, identificando automaticamente autores, títulos e edições para facilitar a compra dos livros necessários.",
+      "url_fonte": "https://www.estantevirtual.com.br/",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Estante Virtual",
+      "tipo": "notícia",
+      "titulo": "Estante Virtual conecta pequenos livreiros a leitores de todo o país",
+      "conteudo_texto": "A Estante Virtual é descrita como um marketplace que conecta leitores a livrarias, sebos e editoras independentes de todo o Brasil, com foco declarado em bibliodiversidade. Segundo relatos de livreiros parceiros, uma parcela relevante do faturamento de pequenos sebos vem das vendas realizadas através da plataforma, que ajuda esses negócios a alcançar clientes fora de sua região geográfica original. A empresa reúne milhões de títulos de livreiros espalhados pelo país, incluindo obras raras e fora de catálogo, difíceis de encontrar em livrarias convencionais.",
+      "url_fonte": "https://universo.magalu.com/estante-virtual",
+      "data_publicacao": "2026-01-01"
+    },
+    {
+      "startup_nome": "Estante Virtual",
+      "tipo": "notícia",
+      "titulo": "Estante Virtual é adquirida pelo grupo Magazine Luiza",
+      "conteudo_texto": "A Estante Virtual, marketplace de livros fundado em 2005, foi adquirida pelo Magazine Luiza em uma transação cujos termos não foram divulgados publicamente. A aquisição integrou o marketplace de livros à rede de negócios digitais do grupo varejista, mantendo a operação focada em conectar leitores a livreiros e sebos independentes espalhados pelo Brasil. A empresa segue funcionando como uma marca própria dentro do ecossistema de negócios do Magazine Luiza, voltada especificamente para o público de livros e produtos relacionados à leitura.",
+      "url_fonte": "https://www.cbinsights.com/company/estante-virtual",
+      "data_publicacao": "2026-01-19"
+    }
+  ]
+}
