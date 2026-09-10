@@ -1,17 +1,4 @@
-import os
-import psycopg2
-from dotenv import load_dotenv
-
-load_dotenv()
-
-def get_connection():
-    return psycopg2.connect(
-        host=os.getenv("POSTGRES_HOST"),
-        port=os.getenv("POSTGRES_PORT"),
-        user=os.getenv("POSTGRES_USER"),
-        password=os.getenv("POSTGRES_PASSWORD"),
-        dbname=os.getenv("POSTGRES_DB"),
-    )
+from infrastructure.postgres_repository import get_connection
 
 def retriever(state):
     criterios = state["criterios_busca"]
@@ -42,8 +29,6 @@ def retriever(state):
         LIMIT 10;
     """
 
-    print("SQL:", query)
-    print("Valores:", valores)
     cursor.execute(query, valores)
     colunas = [desc[0] for desc in cursor.description]
     resultados = [dict(zip(colunas, linha)) for linha in cursor.fetchall()]

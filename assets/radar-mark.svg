@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">NVIDIA Startup AI Radar</title>
+  <desc id="desc">Símbolo abstrato de um radar de inteligência artificial.</desc>
+  <defs>
+    <linearGradient id="bg" x1="12" y1="10" x2="148" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1510"/>
+      <stop offset="1" stop-color="#203C27"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="80" y1="80" x2="138" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76B900" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#B8F15B" stop-opacity=".8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="160" height="160" rx="38" fill="url(#bg)"/>
+  <circle cx="80" cy="80" r="51" fill="none" stroke="#B8F15B" stroke-opacity=".16" stroke-width="1.5"/>
+  <circle cx="80" cy="80" r="34" fill="none" stroke="#B8F15B" stroke-opacity=".24" stroke-width="1.5"/>
+  <path d="M80 80 138 30A76 76 0 0 1 148 80Z" fill="url(#beam)"/>
+  <path d="M80 23V137M23 80H137" stroke="#DFFFB4" stroke-opacity=".1" stroke-width="1"/>
+  <path d="M80 80 127 39" stroke="#B8F15B" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="80" cy="80" r="8" fill="#76B900" filter="url(#glow)"/>
+  <circle cx="124" cy="42" r="5" fill="#D9FF8C" filter="url(#glow)"/>
+  <circle cx="47" cy="114" r="4" fill="#76B900"/>
+</svg>

@@ -1,26 +1,6 @@
-import os
 import json
-import psycopg2
-from dotenv import load_dotenv
-from llm_client import invoke_llm
-
-load_dotenv()
-
-
-def get_setores_existentes():
-    conn = psycopg2.connect(
-        host=os.getenv("POSTGRES_HOST"),
-        port=os.getenv("POSTGRES_PORT"),
-        user=os.getenv("POSTGRES_USER"),
-        password=os.getenv("POSTGRES_PASSWORD"),
-        dbname=os.getenv("POSTGRES_DB"),
-    )
-    cursor = conn.cursor()
-    cursor.execute("SELECT DISTINCT setor FROM startups;")
-    setores = [linha[0] for linha in cursor.fetchall()]
-    cursor.close()
-    conn.close()
-    return setores
+from infrastructure.llm_client import invoke_llm
+from infrastructure.postgres_repository import get_setores_existentes
 
 
 def query_planner(state):

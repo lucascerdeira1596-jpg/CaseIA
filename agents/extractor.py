@@ -1,32 +1,6 @@
-import os
 import json
-import psycopg2
-from dotenv import load_dotenv
-from llm_client import invoke_llm  
-
-load_dotenv()
-
-def get_connection():
-    return psycopg2.connect(
-        host=os.getenv("POSTGRES_HOST"),
-        port=os.getenv("POSTGRES_PORT"),
-        user=os.getenv("POSTGRES_USER"),
-        password=os.getenv("POSTGRES_PASSWORD"),
-        dbname=os.getenv("POSTGRES_DB"),
-    )
-
-def get_documentos(startup_id):
-    conn = get_connection()
-    cursor = conn.cursor()
-    cursor.execute(
-        "SELECT tipo, titulo, conteudo_texto, url_fonte FROM documentos WHERE startup_id = %s;",
-        (startup_id,)
-    )
-    colunas = [desc[0] for desc in cursor.description]
-    docs = [dict(zip(colunas, linha)) for linha in cursor.fetchall()]
-    cursor.close()
-    conn.close()
-    return docs
+from infrastructure.llm_client import invoke_llm
+from infrastructure.postgres_repository import get_documentos
 
 PROMPT_SISTEMA = """Você é um analista que extrai sinais de uso de IA a partir de textos sobre startups.
 Analise os documentos fornecidos e extraia um perfil estruturado.
@@ -63,10 +37,6 @@ def extractor(state):
             {"role": "user", "content": mensagem_usuario},
         ])
 
-        #print("--- RESPOSTA BRUTA DO MODELO ---")
-        #print(repr(resposta.content))
-        #print("--- FIM ---")
-
         perfil_extraido = json.loads(resposta.content)
 
         perfis.append({
@@ -74,7 +44,9 @@ def extractor(state):
             "nome": startup["nome"],
             "setor": startup["setor"],
             "descricao_curta": startup["descricao_curta"],
-            **perfil_extraido,
+            "tecnologias_ia_mencionadas": perfil_extraido.get("tecnologias_ia_mencionadas", []),
+            "uso_de_ia_descricao": perfil_extraido.get("uso_de_ia_descricao", ""),
+            "evidencias": perfil_extraido.get("evidencias", []),
         })
 
     return {"perfis_estruturados": perfis}

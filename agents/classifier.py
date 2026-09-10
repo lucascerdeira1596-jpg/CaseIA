@@ -1,5 +1,5 @@
 import json
-from llm_client import invoke_llm
+from infrastructure.llm_client import invoke_llm
 
 PROMPT_SISTEMA = """Você é um especialista em classificar a maturidade de IA de startups, segundo estas definições:
 

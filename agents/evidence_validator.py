@@ -1,6 +1,6 @@
 import json
-from extractor import get_documentos
-from llm_client import invoke_llm
+from infrastructure.llm_client import invoke_llm
+from infrastructure.postgres_repository import get_documentos
 
 PROMPT_VALIDACAO = """Você é um auditor cético. Sua tarefa é verificar se um trecho de texto contém evidência REAL e GENUÍNA (mesmo que parcial) para uma afirmação feita sobre uma startup.
 
@@ -26,10 +26,7 @@ def validar_semanticamente(afirmacao, trecho):
         {"role": "user", "content": mensagem_usuario},
     ])
     resultado = json.loads(resposta.content)
-    #print(f"[DEBUG] sustenta={resultado['sustenta_afirmacao']} | motivo: {resultado['motivo']}")
     return resultado
-
-    return json.loads(resposta.content)
 
 
 def evidence_validator(state):

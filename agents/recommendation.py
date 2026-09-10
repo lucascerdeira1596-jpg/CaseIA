@@ -1,5 +1,5 @@
 import json
-from llm_client import invoke_llm
+from infrastructure.llm_client import invoke_llm
 
 PROMPT_SISTEMA = """Você é um analista que monta recomendações de tecnologia NVIDIA para startups, para uso do time de Startups & VCs da NVIDIA Brasil.
 

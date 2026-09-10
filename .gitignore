@@ -1,5 +1,7 @@
 venv/
 .env
+.claude/
+.streamlit/
 
 __pycache__/
 *.pyc
